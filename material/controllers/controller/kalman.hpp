@@ -73,3 +73,11 @@ bool kal_check_nan(const MatX& m){
 ///////////////////////////////////////////////////
 // TODO: implement your Kalman filter here after //
 ///////////////////////////////////////////////////
+
+//IMU
+
+void kal_imu_update(){
+    double vec_u_imu=odometry->u_imu();
+    
+}
+

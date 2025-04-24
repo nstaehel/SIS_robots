@@ -10,3 +10,7 @@
 #define RAD2DEG(X)      X / M_PI * 180.0 // Convert radians to degrees
 
 // TODO: You can implement your wheel odometry here if relevant for your project
+
+double* u_imu(){
+    return pioneer_interface->get_imu();
+}
